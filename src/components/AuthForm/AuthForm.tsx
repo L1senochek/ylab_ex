@@ -16,7 +16,6 @@ const AuthForm = ({
   return (
     <div className={styles['auth-form']}>
       <h2 className={styles['auth-form__title']}>{content.title}</h2>
-
       <FormProvider {...methods}>
         <form
           className={styles['auth-form__form']}
