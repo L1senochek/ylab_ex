@@ -12,6 +12,10 @@ button {
   background-color: $background-color-btn;
   transition: border-color 0.5s, box-shadow 0.5s, text-shadow 0.5s, color 0.5s;
   cursor: pointer;
+  &:focus,
+  &:focus-visible {
+    outline: none;
+  }
 }
 
 @media (hover: hover) {
