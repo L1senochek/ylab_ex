@@ -1,0 +1,47 @@
+@import '@/styles/variables.scss';
+@import '@/styles/mixin/flex-direction-column.scss';
+
+@include flex-direction-column('.auth-form');
+@include flex-direction-column('.auth-form__form');
+
+.auth-form {
+  box-sizing: border-box;
+  &__title {
+    color: $second-color;
+  }
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1vw 0;
+    color: $description-color;
+    &_link {
+      padding-left: 1vw;
+    }
+  }
+  &__form {
+    padding: 2vw 5vw;
+    min-width: 320px;
+    border-color: $third-color;
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
+    background-image: $background-image;
+    gap: 15px;
+  }
+  &__btn {
+    margin-top: 1vw;
+    &.disabled {
+      background-color: $third-color;
+      cursor: not-allowed;
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .sign-in {
+    &__form {
+      padding: 5vw 8vw;
+    }
+  }
+}
