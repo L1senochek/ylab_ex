@@ -1,0 +1,26 @@
+{
+  "eng": {
+    "title": "Sign In",
+    "inputEmail": {
+      "titleLabel": "Email: ",
+      "placeholder": "Enter your email"
+    },
+    "inputPassword": {
+      "titleLabel": "Password: ",
+      "placeholder": "Enter your password"
+    },
+    "buttonName": "Submit"
+  },
+  "ru": {
+    "title": "Войти",
+    "inputEmail": {
+      "titleLabel": "Почта: ",
+      "placeholder": "Введите свою почту"
+    },
+    "inputPassword": {
+      "titleLabel": "Пароль: ",
+      "placeholder": "Введите свой пароль"
+    },
+    "buttonName": "Отправить"
+  }
+}

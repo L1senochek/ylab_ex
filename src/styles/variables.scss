@@ -1,0 +1,20 @@
+$main-color: #fffffff5;
+$description-color: #929599;
+$second-color: #b692f6;
+$third-color: #53389e;
+$fourth-color: #42307d;
+$error-color: #f85149;
+$background-color: #242424;
+$background-color-second: #0d0d0d;
+
+$background-color-btn: $second-color;
+$background-color-btn-hover: $third-color;
+
+$box-shadow-btn: 0 0 15px 1px $background-color-btn-hover;
+$text-shadow-btn: 0 0 30px rgb(0 12 2 / 93%);
+
+$background-image: radial-gradient(
+  ellipse at 30% 10%,
+  $background-color,
+  $background-color-second
+);
