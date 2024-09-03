@@ -3,11 +3,11 @@
     "title": "Sign In",
     "inputEmail": {
       "titleLabel": "Email: ",
-      "placeholder": "Email"
+      "placeholder": "Enter your email"
     },
     "inputPassword": {
       "titleLabel": "Password: ",
-      "placeholder": "Password"
+      "placeholder": "Enter your password"
     },
     "buttonName": "Submit"
   },
@@ -15,11 +15,11 @@
     "title": "Войти",
     "inputEmail": {
       "titleLabel": "Почта: ",
-      "placeholder": "Почта"
+      "placeholder": "Введите свою почту"
     },
     "inputPassword": {
       "titleLabel": "Пароль: ",
-      "placeholder": "Пароль"
+      "placeholder": "Введите свой пароль"
     },
     "buttonName": "Отправить"
   }
